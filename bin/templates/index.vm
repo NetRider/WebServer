@@ -1,0 +1,13 @@
+<html>
+	<head>
+	<title>"Benvenuto. Stai utilizzando il SimpleServerWeb</title>
+	</head>
+	<body>
+		<h1>Ecco la lista delle foto che puoi visualizzare</h1>
+		<ul>
+		#foreach( $url in $urls )
+    		<li><a href= $url>$nameImage[$foreach.index]</a></li><br>
+		#end
+		</ul>
+	</body>
+</html>
