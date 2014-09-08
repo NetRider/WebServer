@@ -5,9 +5,9 @@ import java.util.ArrayList;
 
 public class ServerFileSystem {
 	
-	public static ArrayList getListOfImagesByExtension(String path, String extension)
+	public static ArrayList<String> getListOfImagesByExtension(String path, String extension)
 	{
-		ArrayList listOfImages = new ArrayList<String>();
+		ArrayList<String> listOfImages = new ArrayList<String>();
 		File folder = new File(path);
 		
 		//initializes the list of files

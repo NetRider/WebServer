@@ -16,6 +16,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/templates/fileNotFound.vm</name>
+			<type>1</type>
+			<location>/Users/matteopolsinelli/FileSystem/Templates/fileNotFound.vm</location>
+		</link>
+		<link>
 			<name>src/templates/index.vm</name>
 			<type>1</type>
 			<location>/Users/matteopolsinelli/FileSystem/Templates/index.vm</location>
